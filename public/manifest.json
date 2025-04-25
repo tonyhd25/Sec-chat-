@@ -1,9 +1,13 @@
 {
-  "short_name": "SecureChat",
-  "name": "Secure Web Chat",
-  "start_url": ".",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#007bff",
-  "icons": []
+  "name": "secure-chat",
+  "version": "1.0.0",
+  "description": "Verschlüsselter WebSocket-Chat",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0"
+  }
 }
