@@ -1,5 +1,5 @@
 {
-  "name": "secure-chat",
+  "name": "sec-chat",
   "version": "1.0.0",
   "description": "Verschlüsselter WebSocket-Chat",
   "main": "server.js",
